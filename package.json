@@ -1,0 +1,23 @@
+{
+  "name": "vinteedoisdeabril",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "fs": "0.0.1-security",
+    "json2csv": "^5.0.7",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "npx nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
